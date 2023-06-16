@@ -1,10 +1,7 @@
-
-import { toBePartiallyChecked } from '@testing-library/jest-dom/dist/matchers';
 import { useReducer } from 'react';
+import DigitButton from "./DigitButton";
+import OperationButton from "./OperationButton";
 import './App.css';
-import DigitButton from "./DigitButton"
-import OperationButton from "./OperationButton"
-
 
 export const ACTIONS = {
   ADD_DIGIT: 'add-digit',
@@ -88,6 +85,7 @@ function reducer(state, {type, payload}){
         operation: null,
         currentOperand: evaluate(state),
       }
+    default:
   }
 }
 function evaluate({ currentOperand, previousOperand, operation}) {
@@ -98,16 +96,17 @@ function evaluate({ currentOperand, previousOperand, operation}) {
   switch (operation) {
     case "+":
       computation = prev + current
-      break
+      break;
     case "-":
       computation = prev - current
-      break
+      break;
     case "*":
       computation = prev * current
-      break
+      break;
     case "/":
       computation = prev / current
-      break 
+      break;
+    default: 
   }
   return computation.toString()
 }
