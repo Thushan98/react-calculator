@@ -1,3 +1,5 @@
+This is a react application I have created. React Calculator is a sample calculator. To view it click here. (https://thushan98.github.io/react-calculator/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
