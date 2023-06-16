@@ -1,6 +1,9 @@
 This is a react application I have created. React Calculator is a sample calculator. To view it click here. (https://thushan98.github.io/react-calculator/)
 
-# Getting Started with Create React App
+
+
+# Getting Started with Create React App![cal](https://github.com/Thushan98/react-calculator/assets/62166556/1d5821ab-5682-4a1a-82aa-31d94392fc8d)
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
